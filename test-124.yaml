@@ -6,11 +6,11 @@ metadata:
     app: redis
   name: redis
 spec:
-  replicas: 5
+  replicas: 
   selector:
     matchLabels:
       app: redis
-  strategy: {}
+  strategy: {}50000
   template:
     metadata:
       creationTimestamp: null
